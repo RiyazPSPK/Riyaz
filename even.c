@@ -6,14 +6,14 @@ main()
 	scanf("%d",&num1);
 	if(num1%2==0)
 	{
-		printf("%d is even",num1);
+		printf("%d is even \n",num1);
 	}
 	else if(num1%2!=0)
 	{
-		printf("%d is odd",num1);
+		printf("%d is odd \n",num1);
 	}
 	else
 	{
-		printf("other number");
+		printf("other number \n");
 	}
 }
