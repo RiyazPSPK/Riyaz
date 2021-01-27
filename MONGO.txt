@@ -1,0 +1,26 @@
+MongoDB
+----------------------------------------
+Mongo is a database
+its no sql database
+data will be stored in Json format/document oriented database
+C++
+
+
+SQL	                     Mongo	
+1.Structured               1.non-structured
+2.SQL			   2.NO SQL
+3.Table form		   3.Collection
+4.Row			   4.Document
+5.Columns/rows		   5.Keyvalue pairs/json data
+ex--bank transactions
+
+       
+COMMANDS::
+********************
+1.show dbs == will show the number of databases
+2.use <database name> = to create a database
+3.db.collection_name.insert({"object u want to insert":})
+	EX-->db.subject.insert({"C":20})
+4.db.<collection_name>.insert([{the objects u wand to insert},{____________}])
+        EX-->db.subject.insert([{"C":20},{"C":23}])
+5.db.<collection_name>.find().pretty()
