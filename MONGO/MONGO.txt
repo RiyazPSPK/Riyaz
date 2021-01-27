@@ -24,3 +24,11 @@ COMMANDS::
 4.db.<collection_name>.insert([{the objects u wand to insert},{____________}])
         EX-->db.subject.insert([{"C":20},{"C":23}])
 5.db.<collection_name>.find().pretty()
+
+
+
+
+
+
+
+hi
